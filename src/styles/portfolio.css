@@ -109,6 +109,7 @@
 
     & #linux {
         margin: 1rem 0;
+        height: 3.25rem;
 
         & #hostUsername {
             color: var(--primary-color);
@@ -335,6 +336,12 @@ mark {
         width: 40%;
     }
 
+    .intro {
+        & #linux {
+            height: 2rem;
+        }
+    }
+
     #about-me {
         display: flex;
         flex-direction: column;
@@ -414,6 +421,10 @@ mark {
 
     .intro {
         padding-top: 20rem;
+
+        & #linux {
+            height: auto;
+        }
     }
 
     #about-me {
